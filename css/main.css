@@ -1,0 +1,300 @@
+/*Index page*/
+
+body.index {
+    background-image: url("../view/images/bmw_i8.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper img {
+    max-height: 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+/*Index*/
+
+header {
+    margin: 30px 20px 100px 30px;
+}
+
+
+
+/*MAP*/
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+/*Cart link*/
+
+#cart {
+    height: 30px;
+    width: 30px;
+}
+
+
+/*cart prodcucts*/
+
+ul.cart_products {
+    list-style: none;
+}
+
+
+/*Menu*/
+
+#supercars {
+    height: auto;
+    max-width: 98%;
+    margin: 10px 20px;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: #DDDDDD;
+}
+
+
+/* Navigation bar */
+
+nav.menu {
+    max-width: 98%;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-top: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav.menu ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    width: 20%;
+    /* fallback for non-calc() browsers */
+    width: calc(100% / 5);
+    box-sizing: border-box;
+}
+
+nav.menu ul li:first-child {
+    border-left: none;
+}
+
+nav.menu ul li a {
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    padding: 10px 0;
+}
+
+
+/*Register login search*/
+
+nav.regLogSea {
+    width: 100%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+nav.regLogSea ul {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+nav.regLogSea ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+nav.regLogSea a:link,
+a:visited {
+    background: #f0f0f0;
+    color: #616161;
+    border: 2px solid #616161;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/*inici locura*/
+
+#account-link{
+    margin-bottom: 1000px;
+}
+
+
+
+/*fi locura*/
+
+div.register {
+    text-align: center;
+}
+
+label {
+    margin-right: 20px;
+}
+
+.header {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}
+
+
+/*Brands*/
+
+#logo {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    width: 400px;
+    height: 400px;
+    margin: 10px 10px;
+}
+
+div.brands {
+    text-align: center;
+}
+
+div.brand {
+    display: inline-block;
+    width: 420px;
+    height: 420px;
+    margin: 1%;
+}
+
+
+/*Brands detail */
+
+ul.sales {
+    list-style-type: none;
+    margin-left: -2.5%;
+    /* should match li left margin */
+}
+
+ul.sales li {
+    width: 45%;
+    display: inline-block;
+    margin: 0 0 2.5% 2.5%;
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+ul.sales li img {
+    border: 2px solid #021a40;
+    height: auto;
+    max-width: 100%;
+    margin: 0 0 10px;
+}
+
+ul.sales li h1 {
+    font-size: 30px;
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+ul.sales li p {
+    text-align: center;
+    font-size: 25px;
+    color: #999;
+}
+
+ul.sales li a:link {
+    color: Black
+}
+
+
+/*Product*/
+
+div.product {
+    margin: 10px 30px;
+    max-width: 100%;
+}
+
+div.product h1 {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 24pt;
+}
+
+div.product img {
+    float: right;
+    max-width: 950px;
+    height: 275px;
+    border: 2px solid #021a40;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+div.product p {
+    text-align: justify;
+    font-family: Tahoma;
+    color: #333;
+}
+
+button.addCart {
+    float: left;
+    font-size: 30px;
+}
+
+@media (max-width: 480px) {
+    nav.menu ul li {
+        display: block;
+    }
+    nav.menu ul li a {
+        display: block;
+    }
+    nav.regLogSea {
+        max-width: 100%;
+    }
+    nav.regLogSea ul li {
+        display: inline-block;
+    }
+    ul.sales {
+        margin-left: 0;
+    }
+    ul.sales li {
+        width: 100% !important;
+        /* over-ride all li styles */
+        margin: 0 0 20px;
+    }
+}
+
+
+/*Login*/
+
+div.login {
+    text-align: center;
+}
+
+div.login div.register {
+    font-size: 25px;
+}
